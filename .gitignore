@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-addressbook.pkl
+src/storage/addressbook.pkl
 
 # Distribution / packaging
 .Python
