@@ -55,7 +55,7 @@ class Record:
         self._birthday = None
 
     def __str__(self):
-        return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)}{", birthday: " + self.birthday.value if self.birthday else ""}add"
+        return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)}{", birthday: " + self.birthday.value if self.birthday else ""}"
 
     def add_phone(self, phone: str):
         try:
